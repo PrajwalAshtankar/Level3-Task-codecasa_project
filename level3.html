@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BHARAT E-commerce</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    #products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2em;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      margin: 1em;
+      padding: 1em;
+      text-align: center;
+      width: 200px;
+    }
+
+    button {
+      background-color: #333;
+      color: white;
+      padding: 0.5em 1em;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BHARAT E-commerce</h1>
+  </header>
+
+  <div id="products">
+    <div class="product">
+      <img src="C:\Users\hp\Downloads\codecasa level 3\music-headphones-.avif" alt="Headphone" width="150" height="150">
+      <h3>Headphone</h3>
+      <p>50% offer.</p>
+      <p>Rs.19,999</p>
+      <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="C:\Users\hp\Downloads\codecasa level 3\smartphone.avif" alt="Smart Phone"  width="150" height="150">
+      <h3>Smart phone</h3>
+      <p>5G smart phone.</p>
+      <p>Rs 19,999</p>
+      <button onclick="addToCart(2)">Add to Cart</button>
+    </div>
+
+    <!-- Add more product entries as needed -->
+
+  </div>
+
+  <script>
+    function addToCart(productId) {
+      // Implement logic to add the selected product to the cart
+      alert('Product added to cart. Implement cart functionality.');
+    }
+  </script>
+
+</body>
+</html>
